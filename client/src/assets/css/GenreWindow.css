@@ -1,0 +1,15 @@
+.GenreWindow {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
+}
+
+.GenreWindow-button {
+    background-color: floralwhite;
+    height: 100px;
+    width: 200px;
+    color: black;
+    font-size: 18px;
+}

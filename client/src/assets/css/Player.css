@@ -1,0 +1,76 @@
+.Player {
+    background-image: url(../images/explode-1.svg);
+    width: 96%;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:700px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.Player-icon-container {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Player-icon-container img {
+
+}
+
+.Player-information {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Player-information-artistInfo {
+    max-height: 50px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.Player-information-artistInfo:hover {
+    transform: scale(1.2);
+    border: 4px solid #ff48c4;
+    background-color: #2DE2E6;
+}
+
+.Playlist-information {
+    max-height: 50px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.Playlist-information:hover {
+    transform: scale(1.2);
+    border: 4px solid #ff48c4;
+    background-color: #2DE2E6;
+}
+
+.Player-information button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
